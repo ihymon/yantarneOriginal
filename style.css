@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
   margin: 0;
   padding: 0;
@@ -25,3 +26,11 @@
 }
 
 /*# sourceMappingURL=style.css.map */
+=======
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+>>>>>>> c0ababd435c426506236e1089cf069d811117a00
