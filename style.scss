@@ -17,10 +17,40 @@
             left: 0;
             right: 0;
             overflow: hidden;
+            z-index: 0;
             .homepage__swiper {
                 width: 100%;
                 height: 100%;
                 overflow: hidden;
+                .home__swiper-navigation {
+                    height: 45px;
+                    width: 90px;
+                    display: flex;
+                    position: absolute;
+                    right: 50px;
+                    bottom: 50px;
+                    .home__swiper-button {
+                        &::after {
+                            content: '';
+                            height: 45px;
+                            width: 45px;
+                            display: block;
+                        }
+                        &.swiper-button-prev::after {
+                            background: url("./img/sliderControls/previous.svg") no-repeat center;
+                            background-size: contain;
+                        }
+                        &.swiper-button-next::after {
+                            background: url("./img/sliderControls/next.svg") no-repeat center;
+                            background-size: contain;
+                        }
+                    }
+                }
+            }
+            .home__slide img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
             }
         }
     }

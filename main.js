@@ -11,4 +11,16 @@ const swiper = new Swiper('.homepage__swiper', {
     autoplay: {
         delay: 5000,
     },
+    // Disable preloading of all images
+    preloadImages: false,
+    // Enable lazy loading
+    lazy: {
+        loadPrevNext: true,
+        elementClass: 'home__swiper-lazy',
+        loadOnTransitionStart: true
+    },
+    effect: 'fade',
+    fadeEffect: {
+        crossFade: true
+    },
 });
