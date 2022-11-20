@@ -1,5 +1,10 @@
 * {
-<<<<<<< HEAD
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -26,27 +31,21 @@
         }
     }
 }
-=======
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+
 // FriendsPage
-
 .container {
-  width: 100%;
-  max-width: 1300px;
-  margin: 0 auto;
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
 }
-.friendsPage {
-  color: #333;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
 
-  &__title {
-    font-size: 48px;
-  }
+.friendsPage {
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    &__title {
+        font-size: 48px;
+    }
 }
->>>>>>> f28f2008d73c24ab63446ef422e56cf3e412a463
