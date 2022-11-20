@@ -47,10 +47,14 @@
                     }
                 }
             }
-            .home__slide img {
+            .home__slider-image {
                 width: 100%;
                 height: 100%;
                 object-fit: cover;
+                display: flex;
+                position: relative;
+                filter: brightness(0.7);
+                -webkit-filter: brightness(0.7);
             }
         }
     }

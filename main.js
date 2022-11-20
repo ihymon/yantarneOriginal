@@ -7,9 +7,10 @@ const swiper = new Swiper('.homepage__swiper', {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
     },
-    speed: 500,
+    speed: 800,
     autoplay: {
         delay: 5000,
+        disableOnInteraction: false
     },
     // Disable preloading of all images
     preloadImages: false,

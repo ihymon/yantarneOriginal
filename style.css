@@ -46,10 +46,14 @@
   background: url("./img/sliderControls/next.svg") no-repeat center;
   background-size: contain;
 }
-.wrap .homePage .homepage__swiper__container .home__slide img {
+.wrap .homePage .homepage__swiper__container .home__slider-image {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  display: flex;
+  position: relative;
+  filter: brightness(0.7);
+  -webkit-filter: brightness(0.7);
 }
 
 .container {
