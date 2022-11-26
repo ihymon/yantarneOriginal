@@ -99,3 +99,39 @@
         }
     }
 }
+
+@media screen and (min-width: 2000px) {
+    .wrap {
+        .homePage {
+            .homepage__swiper__container {
+                .homepage__swiper {
+                    .home__swiper-navigation {
+                        width: calc(100% - 40px);
+                        height: 100px;
+                        justify-content: space-between;
+                        right: 20px;
+                        bottom: 40px;
+                        .home__swiper-button {
+                            width: 80px;
+                            height: 80px;
+                            &::after {
+                                content: '';
+                                height: 80px;
+                                width: 80px;
+                                display: block;
+                            }
+                            &.swiper-button-prev::after {
+                                background: url("./img/sliderControls/previous.svg") no-repeat center;
+                                background-size: contain;
+                            }
+                            &.swiper-button-next::after {
+                                background: url("./img/sliderControls/next.svg") no-repeat center;
+                                background-size: contain;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
