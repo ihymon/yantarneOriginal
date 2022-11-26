@@ -82,3 +82,20 @@
         background-color: red;
     }
 }
+
+@media screen and (max-width: 428px) {
+    .wrap {
+        .homePage {
+            .homepage__swiper__container {
+                .homepage__swiper {
+                    .home__swiper-navigation {
+                        width: calc(100% - 40px);
+                        justify-content: space-between;
+                        right: 20px;
+                        bottom: 50%;
+                    }
+                }
+            }
+        }
+    }
+}
